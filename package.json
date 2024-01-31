@@ -1,0 +1,40 @@
+{
+  "name": "react-native-prevent-interaction",
+  "version": "1.0.0",
+  "description": "A React Native component to prevent user interaction based on a specific condition.",
+  "main": "lib/PreventInteractionWhile.js",
+  "types": "lib/PreventInteractionWhile.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cstayyab/react-native-prevent-interaction.git"
+  },
+  "keywords": [
+    "react-native",
+    "interaction",
+    "prevent",
+    "modal"
+  ],
+  "author": {
+    "name": "Muhammad Tayyab Sheikh",
+    "email": "contact@cstayyab.com",
+    "url": "https://cstayyab.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cstayyab/react-native-prevent-interaction/issues"
+  },
+  "homepage": "https://github.com/cstayyab/react-native-prevent-interaction#readme",
+  "peerDependencies": {
+    "react": ">=16.0.0",
+    "react-native": ">=0.60"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "@types/react-native": "^0.63.0",
+    "typescript": "^4.0.0"
+  }
+}
